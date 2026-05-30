@@ -31,3 +31,8 @@ csv header format to another to get stuff working.
 
 I would recomend you DO NOT look for another dataset. i spent hours and hours trying to find a good dataset of panoramas with accurate timestamps, eventually giving up and just manually labeling the images myself (only took a few hours). But if you can find a good dataset, go crazy.
 
+    DATASET:
+https://drive.google.com/drive/folders/1eo7oQPxqH2X3RpHTNpcfsuK0BKdgNWRu?usp=sharing
+
+    GITHUB REPO:
+https://github.com/alexcatdogiscool/comp-vis-asg/tree/master

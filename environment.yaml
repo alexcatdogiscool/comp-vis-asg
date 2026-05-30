@@ -1,0 +1,30 @@
+name: segformer
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+  # --- Core ML stack (PINNED for stability) ---
+  - pytorch=2.5.*
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+
+  # --- scientific base ---
+  - numpy=1.26.*
+  - scipy
+  - pillow
+
+  # --- required for torch compatibility (IMPORTANT) ---
+  - sympy=1.13.1
+
+  # --- pip-only packages (kept minimal) ---
+  - pip
+  - pip:
+      - transformers==4.41.2
+      - huggingface-hub==0.23.0
+      - safetensors

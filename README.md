@@ -29,5 +29,5 @@ My bad once again for losing it.
 The hardest part about this project is messing around with all the different csv files, youll prob have to write a few scripts that convert one
 csv header format to another to get stuff working.
 
-
+I would recomend you DO NOT look for another dataset. i spent hours and hours trying to find a good dataset of panoramas with accurate timestamps, eventually giving up and just manually labeling the images myself (only took a few hours). But if you can find a good dataset, go crazy.
 
